@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #8059ecad;
+}
+#cabeacalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #8059ecad;
+}
+#cabeacalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+.navbar-toggler {
+    background-color: #ffeae6 ;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-loja, #Flores {
+    background-color:  #ffeae6;
+}
+
+.text-colored {
+    color: #8059ecad;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #8059ecad;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #8059ecad;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+footer {
+    background-color: #8059ecad;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 32px;
+}
+.nos-acompanhe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.social-links img {
+    height: 50px;
+    margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
